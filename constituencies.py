@@ -384,3 +384,9 @@ constituencies={'Baringo' : [
       'Sigor',
     ],  
   }
+def transform():
+	newdf={}
+	for k,v in zip(constituencies.keys(),constituencies.values()):
+		newdf[k.upper()]=[val.upper() for val in constituencies[k]]
+	return newdf
+constituencies=transform()

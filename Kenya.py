@@ -12,7 +12,7 @@ class Kenya(object):
             raise Exception
     def get_county_by_name(name):
         if isinstance(name,str):
-            #name=name.upper()
+            name=name.upper()+""
             if name in Kenya._Counties.values():
                 for k in Kenya._Counties:
                     if Kenya._Counties[k]==name:
@@ -28,7 +28,7 @@ class Kenya(object):
             raise Exception
     def get_county_by_subcounty_name(name):
         if isinstance(name,str):
-            #name=name.upper()
+            name=name.upper()+""
             for i in range(1,48):
                 if name in Kenya._Subcounties[i]:
                     return Kenya._Counties[i]
@@ -37,12 +37,12 @@ class Kenya(object):
         
     def get_subcounties_by_county_name(name):
         if isinstance(name,str):
-            #name=name.upper()
+            name=name.upper()+""
             k,v=Kenya.get_county_by_name(name)
             return (name,Kenya._Subcounties[k])
         else:
             raise TypeError("String Value Required!")
-    @property
+    
     def county_number():
         return len(Kenya._Counties)
     
@@ -50,8 +50,8 @@ class Kenya(object):
         if isinstance(keyw,int) and abs(keyw)>0 and abs(keyw)<=47:
             return len(Kenya.get_subcounties_by_county_code(keyw)[1])
         elif isinstance(keyw,str):
-            #keyw=keyw.upper()
-            if keyw=='ALL':
+            keyw=keyw.upper()+""
+            if keyw=='ALL ':
                 g=map(len,Kenya._Subcounties.values())
                 cnt=[next(g) for i in range(47)]
                 return sum(cnt)

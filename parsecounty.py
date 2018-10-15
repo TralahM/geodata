@@ -7,14 +7,14 @@ def parse(fl,listob=[]):
     
     with open(fl,'r') as fl:  
         for line in fl.readlines():
-            entry=line.split(',')
-            entry[-1]=entry[-1].replace('\n','')
+            entry=line.upper().split(',')
+            entry[-1]=entry[-1].split('\n')
+            entry[-1]=entry[-1][0]
             #pri nt(entry,"Length: ",len(entry))
             listob.append(entry)
         fl.close()
     return listob
 
-#counties=parse('county.csv')
 data=parse('subcounties.csv')
 mapdf={}
 def list2dict(listobj):
