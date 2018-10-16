@@ -1,5 +1,4 @@
-#!/usr/bin/env python
-constituencies={'Baringo ' : [
+constituencies={'Baringo' : [
       'Baringo Central',
       'Baringo North',
       'Baringo South',
@@ -7,14 +6,14 @@ constituencies={'Baringo ' : [
       'Mogotio',
       'Tiaty',
     ],
-    'Bomet ' : [
+    'Bomet' : [
       'Bomet Central',
       'Bomet East',
       'Chepalungu',
       'Konoin',
       'Sotik',
     ],  
-    'Bungoma ' : [
+    'Bungoma' : [
       'Bumula',
       'Kabuchai',
       'Kanduyi',
@@ -25,7 +24,7 @@ constituencies={'Baringo ' : [
       'Webuye East',
       'Webuye West',
     ],  
-    'Busia ' : [
+    'Busia' : [
       'Budalangi',
       'Butula',
       'Funyula',
@@ -34,19 +33,19 @@ constituencies={'Baringo ' : [
       'Teso North',
       'Teso South',
     ],
-    'Elgeyo Marakwet ' : [
+    'Elgeyo Marakwet' : [
       'Keiyo North',
       'Keiyo South',
       'Mawakwet East',
       'Marakwet West',
     ],  
-    'Embu ' : [
+    'Embu' : [
       'Manyatta',
       'Mbeere North',
       'Mbeere South',
       'Runyenjes',
     ],  
-    'Garissa ' : [
+    'Garissa' : [
       'Balambala',
       'Dadaab',
       'Fafi',
@@ -54,7 +53,7 @@ constituencies={'Baringo ' : [
       'Lagdera',
       'Garissa Township',
     ],  
-    'Homa Bay ' : [
+    'Homa Bay' : [
       'Homa Bay Town',
       'Kabondo Kasipul',
       'Karachuonyo',
@@ -64,18 +63,18 @@ constituencies={'Baringo ' : [
       'Rangwe',
       'Suba',
     ],  
-    'Isiolo ' : [
+    'Isiolo' : [
       'Isiolo North',
       'Isiolo South',
     ],  
-    'Kajiado ' : [
+    'Kajiado' : [
       'Kajiado Central',
       'Kajiado East',
       'Kajiado North',
       'Kajiado South',
       'Kajiado West',
     ],  
-    'Kakamega ' : [
+    'Kakamega' : [
       'Butere',
       'Ikolomani',
       'Khwisero',
@@ -89,7 +88,7 @@ constituencies={'Baringo ' : [
       'Navakholo',
       'Shinyalu',
     ],  
-    'Kericho ' : [
+    'Kericho' : [
       'Ainamoi',
       'Belgut',
       'Bureti',
@@ -97,7 +96,7 @@ constituencies={'Baringo ' : [
       'Kipkelion West',
       'Sigowet/Soin',
     ],  
-    'Kiambu ' : [
+    'Kiambu' : [
       'Gatundu North',
       'Gatundu South',
       'Githunguri',
@@ -111,7 +110,7 @@ constituencies={'Baringo ' : [
       'Ruiru',
       'Thika Town',
     ],  
-    'Kilifi ' : [
+    'Kilifi' : [
       'Ganze',
       'Kaloleni',
       'Kilifi North',
@@ -120,13 +119,13 @@ constituencies={'Baringo ' : [
       'Magarini',
       'Rabai',
     ],  
-    'Kirinyaga ' : [
+    'Kirinyaga' : [
       'Gichugu',
       'Kirinyaga Central',
       'Mwea',
       'Ndia',
     ],  
-    'Kisii ' : [
+    'Kisii' : [
       'Bobasi',
       'Bomachoge Borabu',
       'Bomachoge Chache',
@@ -137,7 +136,7 @@ constituencies={'Baringo ' : [
       'Nyaribari Masaba',
       'South Mugirango',
     ],  
-    'Kisumu ' : [
+    'Kisumu' : [
       'Kisumu Central',
       'Kisumu East',
       'Kisumu West',
@@ -146,7 +145,7 @@ constituencies={'Baringo ' : [
       'Nyando',
       'Seme',
     ],  
-    'Kitui ' : [
+    'Kitui' : [
       'Kitui Central',
       'Kitui East',
       'Kitui Rural',
@@ -156,22 +155,22 @@ constituencies={'Baringo ' : [
       'Mwingi North',
       'Mwingi West',
     ],  
-    'Kwale ' : [
+    'Kwale' : [
       'Kinango',
       'Lunga Lunga',
       'Matuga',
       'Msambweni',
     ],  
-    'Laikipia ' : [
+    'Laikipia' : [
       'Laikipia East',
       'Laikipia North',
       'Laikipia West',
     ],  
-    'Lamu ' : [
+    'Lamu' : [
       'Lamu East',
       'Lamu West',
     ],  
-    'Machakos ' : [
+    'Machakos' : [
       'Kangundo',
       'Kathiani',
       'Machakos Town',
@@ -181,7 +180,7 @@ constituencies={'Baringo ' : [
       'Mwala',
       'Yatta',
     ],  
-    'Makueni ' : [
+    'Makueni' : [
       'Kaiti',
       'Kibwezi East',
       'Kibwezi West',
@@ -189,7 +188,7 @@ constituencies={'Baringo ' : [
       'Makueni',
       'Mbooni',
     ],  
-    'Mandera ' : [
+    'Mandera' : [
       'Banissa',
       'Lafey',
       'Mandera East',
@@ -197,13 +196,13 @@ constituencies={'Baringo ' : [
       'Mandera South',
       'Mandera West',
     ],  
-    'Marsabit ' : [
+    'Marsabit' : [
       'Laisamis',
       'Moyale',
       'North Horr',
       'Saku',
     ],  
-    'Meru ' : [
+    'Meru' : [
       'Buuri',
       'Igembe Central',
       'Igembe North',
@@ -214,7 +213,7 @@ constituencies={'Baringo ' : [
       'Tigania East ',
       'Tigania West',
     ],  
-    'Migori ' : [
+    'Migori' : [
       'Awendo',
       'Kuria East',
       'Kuria West',
@@ -224,7 +223,7 @@ constituencies={'Baringo ' : [
       'Suna West',
       'Uriri ',
     ],  
-    'Mombasa ' : [
+    'Mombasa' : [
       'Changamwe',
       'Jomvu',
       'Kisauni',
@@ -232,7 +231,7 @@ constituencies={'Baringo ' : [
       'Mvita',
       'Nyali',
     ],  
-    "Murang'a " : [
+    "Murang'a" : [
       'Gatanga',
       'Kandara',
       'Kangema',
@@ -241,7 +240,7 @@ constituencies={'Baringo ' : [
       'Maragua',
       'Mathioya',
     ],
-    'Nairobi ' : [
+    'Nairobi' : [
       'Dagoretti North',
       'Dagoretti South',
       'Embakasi Central',
@@ -260,7 +259,7 @@ constituencies={'Baringo ' : [
       'Starehe',
       'Westlands',
     ],  
-    'Nakuru ' : [
+    'Nakuru' : [
       'Bahati',
       'Gilgil',
       'Kuresoi North',
@@ -273,7 +272,7 @@ constituencies={'Baringo ' : [
       'Rongai ',
       'Subukia',
     ],  
-    'Nandi ' : [
+    'Nandi' : [
       'Aldai',
       'Chesumei',
       'Emgwen',
@@ -281,7 +280,7 @@ constituencies={'Baringo ' : [
       'Nandi Hills',
       'Tinderet',
     ],  
-    'Narok ' : [
+    'Narok' : [
       'Emurua Dikirr',
       'Kilgoris',
       'Narok East',
@@ -289,20 +288,20 @@ constituencies={'Baringo ' : [
       'Narok South',
       'Narok West',
     ],  
-    'Nyamira ' : [
+    'Nyamira' : [
       'Borabu',
       'Kitutu Masaba',
       'North Mugirango',
       'West Mugirango',
     ],  
-    'Nyandarua ' : [
+    'Nyandarua' : [
       'Kinangop',
       'Kipipiri',
       'Ndaragwa',
       'Ol Jorok',
       'Ol Kalou',
     ],  
-    'Nyeri ' : [
+    'Nyeri' : [
       'Kieni',
       'Mathira',
       'Mukurweini',
@@ -315,7 +314,7 @@ constituencies={'Baringo ' : [
       'Samburu North',
       'Samburu West',
     ],  
-    'Siaya ' : [
+    'Siaya' : [
       'Alego Usonga',
       'Bondo',
       'Gem ',
@@ -323,30 +322,30 @@ constituencies={'Baringo ' : [
       'Ugenya ',
       'Ugunja',
     ],  
-    'Taita-Taveta ' : [
+    'Taita-Taveta' : [
       'Mwatate',
       'Taveta ',
       'Voi',
       'Wundanyi',
     ],  
-    'Tana River ' : [
+    'Tana River' : [
       'Bura',
       'Galole ',
       'Garsen',
     ],  
-    'Tharaka Nithi ' : [
+    'Tharaka Nithi' : [
       "Chuka/Iganmbang'ombe",
       'Maara',
       'Tharaka',
     ],  
-    'Trans-Nzoia ' : [
+    'Trans-Nzoia' : [
       'Cherangany',
       'Endebess',
       'Kiminini',
       'Kwanza',
       'Saboti',
     ],  
-    'Turkana ' : [
+    'Turkana' : [
       'Loima',
       'Turkana Central',
       'Turkana East',
@@ -354,7 +353,7 @@ constituencies={'Baringo ' : [
       'Turkana South',
       'Turkana West',
     ],  
-    'Uasin Gishu ' : [
+    'Uasin Gishu' : [
       'Ainabkoi',
       'Kapseret',
       'Kesess',
@@ -362,14 +361,14 @@ constituencies={'Baringo ' : [
       'Soy',
       'Turbo',
     ],  
-    'Vihiga ' : [
+    'Vihiga' : [
       'Emuhaya',
       'Hamisi',
       'Luanda ',
       'Sabatia',
       'Vihiga',
     ],  
-    'Wajir ' : [
+    'Wajir' : [
       'Eldas',
       'Tarbaj',
       'Wajir East',
@@ -377,20 +376,10 @@ constituencies={'Baringo ' : [
       'Wajir South',
       'Wajir West',
     ],  
-    'West Pokot ' : [
+    'West Pokot' : [
       'Kacheliba',
       'Kapenguria',
       'Pokot South',
       'Sigor',
     ],  
   }
-def transform():
-	newdf={}
-	for k,v in zip(constituencies.keys(),constituencies.values()):
-            newdf[k.upper()]=[]
-            for val in constituencies[k]:
-                if val[-1]==' ':
-                    val=val[0:-1]
-                newdf[k.upper()].append(val.upper())
-	return newdf
-constituencies=transform()
