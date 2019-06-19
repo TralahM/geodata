@@ -8,4 +8,5 @@ install:
     - git clone https://github.com/TralahM/geodata
     - cd geodata
     - pip install -r requirements.txt
+script:
     - python africa.py
