@@ -1,2 +1,8 @@
 parsecounty.py~
+*~
+*pyc
+*__pycache__/*
+shapefiles/*
+*.un*
+*.swp
 county.csv~

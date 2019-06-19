@@ -1,0 +1,10 @@
+os:
+    - linux
+sudo:
+    required
+language: python
+install:
+    - git clone https://github.com/TralahM/geodata
+    - cd geodata
+    - pip install -r requirements.txt
+    - python africa.py
